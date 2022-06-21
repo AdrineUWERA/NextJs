@@ -7,6 +7,11 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
+    <>
+    <Head>
+      <title>Adu List | Home</title>
+      <meta name="keywords" content="adu"/>
+    </Head>
     <div >
       <h1 className={styles.title}>Home</h1>
       <p className={styles.text}>Lorem ipsum dolor sit amet, consectetur adip lorem ipsum dolor sit Lorem ipsum dolor sit amet consectetur
@@ -21,5 +26,6 @@ export default function Home() {
         <a className={styles.btn}>See Adu's List</a>      
       </Link>
     </div>
+    </>
   )
 }
